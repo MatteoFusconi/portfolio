@@ -71,11 +71,20 @@ body {
     margin-top: 15px;
     display: none; /* Hidden by default */
     padding: 15px; /* Add padding for Markdown content */
-    background: #f9f9f9;
-    border-radius: 5px;
-    font-family: 'Courier New', Courier, monospace;
   }
-  
+  .tag {
+    /* background-color: #e2e8f0; */
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+  }
+  .tag.cv {
+    background-color: #1e8f39;
+}
+  .tag.nlp {
+    background-color: #31eeee;
+}
   /* Animation */
   @keyframes fadeIn {
     from {
