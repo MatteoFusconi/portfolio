@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Matteo Fusconi</title>
+  <title>Matteo Fusconi - Projects</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> <!-- Marked.js -->
+  
 </head>
 <body>
   <header>
@@ -14,30 +16,24 @@
   </header>
 
   <div class="cards-container">
-    <div class="card">
+    <div class="card" data-md-file="projects/P1.md">
       <div class="card-header">
         <button class="expand-button">
           <i class="fas fa-chevron-down"></i>
         </button>
-        <h3>Backend Developer</h3>
-        <p>Assist Digital • Full-time</p>
+        <h3>Project 1: Data Analysis</h3>
       </div>
-      <div class="card-details">
-        <p>Assist Digital is an international company that provides end-to-end customer experience services, blending human and AI.</p>
-      </div>
+      <div class="card-details"></div>
     </div>
 
-    <div class="card">
+    <div class="card" data-md-file="projects/P2.md">
       <div class="card-header">
         <button class="expand-button">
           <i class="fas fa-chevron-down"></i>
         </button>
-        <h3>Backend Developer</h3>
-        <p>Mokka Studios • Full-time</p>
+        <h3>Project 2: Machine Learning</h3>
       </div>
-      <div class="card-details">
-        <p>Mokka Studios is a software house building proprietary open-source frameworks for scalable web applications.</p>
-      </div>
+      <div class="card-details"></div>
     </div>
   </div>
 

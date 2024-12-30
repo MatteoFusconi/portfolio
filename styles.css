@@ -70,7 +70,10 @@ body {
   .card-details {
     margin-top: 15px;
     display: none; /* Hidden by default */
-    animation: fadeIn 0.3s ease-in-out;
+    padding: 15px; /* Add padding for Markdown content */
+    background: #f9f9f9;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
   }
   
   /* Animation */
