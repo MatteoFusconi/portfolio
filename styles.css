@@ -69,8 +69,12 @@ body {
   
   .card-details {
     margin-top: 15px;
+    margin-right: 10px; 
+    margin-left: 20px; 
     display: none; /* Hidden by default */
     padding: 15px; /* Add padding for Markdown content */
+    text-align: justify;
+    text-justify: inter-word;
   }
   .tag {
     /* background-color: #e2e8f0; */
@@ -84,6 +88,9 @@ body {
 }
   .tag.nlp {
     background-color: #31eeee;
+}
+  .tag.optimization {
+    background-color: #f5d623;
 }
   /* Animation */
   @keyframes fadeIn {
