@@ -92,6 +92,9 @@ body {
   .tag.optimization {
     background-color: #f5d623;
 }
+  .tag.ml {
+    background-color: #888888b6;
+}
   /* Animation */
   @keyframes fadeIn {
     from {
